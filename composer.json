@@ -1,0 +1,17 @@
+{
+    "name": "webchemistry/security-token",
+    "require": {
+        "php": ">= 8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebChemistry\\SecurityToken\\": "src"
+        }
+    },
+    "require-dev": {
+        "nette/tester": "^2.5",
+        "phpstan/phpstan": "^1.10",
+        "paragonie/paseto": "^3.1",
+        "nette/di": "^3.2"
+    }
+}

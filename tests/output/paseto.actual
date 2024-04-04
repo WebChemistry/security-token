@@ -1,0 +1,9 @@
+WebChemistry\SecurityToken\Token\Claims::__set_state(/* #97bb */ [
+	'claims' => [
+		'user' => 1,
+		'iat' => '2024-04-04T19:21:35+00:00',
+		'iss' => 'test',
+		'nbf' => '2024-04-04T19:21:35+00:00',
+		'exp' => '2024-04-04T19:21:36+00:00',
+	],
+])
