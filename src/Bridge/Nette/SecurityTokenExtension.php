@@ -22,7 +22,7 @@ final class SecurityTokenExtension extends CompilerExtension
 				'key' => Expect::string()->required(),
 				'type' => Expect::string()->required(),
 				'issuer' => Expect::string()->nullable(),
-			]), Expect::string()),
+			])->castTo('array'), Expect::string()),
 		]);
 	}
 
